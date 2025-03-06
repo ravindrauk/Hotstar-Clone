@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "myhotstarserverbucket"
-    key    = "path/to/my/key"
+    key    = "EKS/terraform.tfstate"
     region = "us-east-1"
   }
 }
